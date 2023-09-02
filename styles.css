@@ -1,0 +1,201 @@
+
+body, h1, h2, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    font-size: 16px;
+    padding-top: 100px; /* Increase the padding-top to create space for the fixed header */
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline; 
+}
+
+nav li {
+    margin: 0 20px;
+    display: inline; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: border-bottom 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+.logo {
+    text-align: center; 
+}
+
+.logo a {
+    font-size: 24px;
+    display: inline-block;
+    animation: bounce 2s infinite; /* Add a bouncing animation */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Hero section Animation */
+.hero {
+    background-image: url('hero-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    animation: fadeIn 2s; /* Add a fade-in animation */
+    font-size: 32px; /* Increase the font size for the hero text */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* About section */
+/* ... (previous CSS code) ... */
+
+/* Features section Animation */
+.features {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    animation: slideInFromLeft 2s; /* Add a slide-in animation */
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Contact section */
+/* ... (previous CSS code) ... */
+
+/* Button Hover Effect */
+.btn:hover {
+    background-color: #005bbd;
+    transform: scale(1.1); /* Add a scaling effect on hover */
+    transition: background-color 0.3s, transform 0.3s;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Add circular cropping and adjust the logo size */
+.circular-logo {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Maintain a square aspect ratio */
+    border-radius: 50%; /* Create a circular mask */
+    object-fit: cover; /* Crop the logo to fit the circular shape */
+    object-position: center; /* Center the logo within the circular mask */
+}
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* About section styles */
+.about {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+/* Features section styles */
+.features {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.feature-icon img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
