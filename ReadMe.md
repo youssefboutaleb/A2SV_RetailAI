@@ -18,9 +18,10 @@
     <img src="https://img.shields.io/github/commit-activity/m/youssefboutaleb/A2SV_RetailAI/tree/main?" alt="Badge showing average commit frequency per month"/>
   </a>
 
-  <a href="https://github.com/youssefboutaleb/A2SV_RetailAI/tree/main/commits/main" target="_blank">
-    <img src="https://img.shields.io/github/last-commit/youssefboutaleb/A2SV_RetailAI/tree/main?" alt="Badge showing when the last commit was made"/>
-  </a>
+  <a href="https://github.com/youssefboutaleb/A2SV_RetailAI/commits/main" target="_blank">
+  <img src="https://img.shields.io/github/last-commit/youssefboutaleb/A2SV_RetailAI/main?" alt="Badge showing when the last commit was made"/>
+</a>
+
 
   <a href="https://github.com/youssefboutaleb/A2SV_RetailAI/tree/main/issues" target="_blank">
     <img src="https://img.shields.io/github/issues/youssefboutaleb/A2SV_RetailAI/tree/main?" alt="Badge showing the total of project issues"/>
@@ -33,9 +34,10 @@
     <img src="https://img.shields.io/pypi/pyversions/tensorflow.svg" alt="Python Version Badge"/>
   </a>
 
-  <a href="https://github.com/youssefboutaleb/A2SV_RetailAI/tree/main/blob/main/LICENSE.md" target="_blank">
-    <img alt="Badge showing project license type" src="https://img.shields.io/github/license/youssefboutaleb/A2SV_RetailAI/tree/main?color=f85149">
-  </a>
+  <a href="https://github.com/youssefboutaleb/A2SV_RetailAI/blob/main/LICENSE.md" target="_blank">
+  <img alt="Badge showing project license type" src="https://img.shields.io/github/license/youssefboutaleb/A2SV_RetailAI?color=f85149">
+</a>
+
 </p>
 
 
